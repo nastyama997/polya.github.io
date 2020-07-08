@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header__text,
+.skills__text {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+
+.skills__skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__color {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    margin-right: 7px;
+}
+
+.skills__color--blueviolet {
+    background-color: blueviolet;
+}
+
+.skills__text--size {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.octopus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.octopus__tentacles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.octopus__leg {
+    display: flex;
+}
+
+.octopus__future {
+    width: 80px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    z-index: 0;
+    margin-right: -44px;
+    border-radius: 45% 0 0 45%;
+}
+
+.octopus__future--width3 {
+    width: 55px;
+}
+
+.octopus__future--last {
+    margin-bottom: 0;
+}
+
+.octopus__paw {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 45% 0 0 45%;
+    z-index: 1;
+}
+
+.octopus__paw--width2 {
+    width: 50px;
+}
+
+.octopus__paw--width3 {
+    width: 170px;
+
+}
+
+.octopus__paw--width4 {
+    width: 120px;
+}
+
+.octopus__paw--last {
+    margin-bottom: 0;
+    width: 60px;
+}
+
+.octopus__text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 19px;
+}
+
+.octopus__body {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 10% 50% 50% 10%;
+}
+
+.octopus__eye {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.octopus__eyeball {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+
+}
